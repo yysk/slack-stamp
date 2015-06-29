@@ -1,0 +1,99 @@
+#messages-input-container.new_msg_input .stamp_menu {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 40px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: rgba(0,0,0,.15);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 50ms ease-out .0000001ms;
+  -moz-transition: all 50ms ease-out .0000001ms;
+  transition: all 50ms ease-out .0000001ms;
+  z-index: 1;
+}
+
+.stamp_view {
+  position:absolute;
+  bottom: 80px;
+  right: 36px;
+  display: none;
+  background: white;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  z-index: 10;
+  box-sizing: border-box;
+  width: 520px;
+  height: 400px;
+  padding-left: 8px;
+  padding-right: 8px;
+  overflow: scroll;
+}
+
+.stamp_view ul {
+    list-style:none;
+    padding:0;
+    margin:auto;
+}
+
+.stamp_view ul li {
+    display: block;
+    padding: 5px 10px;
+    border-bottom: 1px solid #DDD;
+    cursor: pointer;
+}
+
+.stamp_view ul li.stamp {
+  box-sizing: border-box;
+  padding: 5;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.stamp_view ul li.stamp img {
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+#stamp_tab {
+  position:absolute;
+  bottom: 480px;
+  right: 36px;
+  margin-top: 18px;
+  background: white;
+  border: 1px solid #DDD;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  z-index: 10;
+  box-sizing: border-box;
+  width: 520px;
+  height: 64px;
+  padding: 8px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.stamp_tab_icon {
+	max-width: 48px;
+	max-height: 48px;
+	-webkit-filter: grayscale(100%);
+}
+
+.stamp_tab_icon.active {
+	-webkit-filter: grayscale(0%);
+}

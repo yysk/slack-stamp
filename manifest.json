@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Slack Stamp",
+  "version": "1.0",
+  "description": "Slackでスタンプっぽいことをする",
+  "icons": {
+    "128": "images/extension_icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.slack.com/messages/*"],
+      "css": ["style.css"],
+      "js": ["stamp.js", "script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["stamp.js", "script.js", "style.css"]
+}
