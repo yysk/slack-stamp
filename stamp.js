@@ -38,7 +38,10 @@ var stamp_sushiyuki = [
   "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_37.png",
   "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_38.png",
   "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_39.png",
-  "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_40.png",
+  "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_40.png"
+]
+
+var stamp_sushiyuki_2 = [
   "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_41.png",
   "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_42.png",
   "https://raw.githubusercontent.com/yysk/slack-stamp/master/images/sushiyuki/sushiyuki_43.png",
@@ -85,5 +88,6 @@ var stamp_sushiyuki = [
  * 追加したいスタンプの配列を追加
  */
 var stamp_urls_list = [
-  stamp_sushiyuki
+  stamp_sushiyuki,
+  stamp_sushiyuki_2
 ]
