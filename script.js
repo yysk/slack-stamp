@@ -24,7 +24,7 @@
 	 */
 	function insertStampButton(){
 		var btn = document.createElement('a');
-		btn.setAttribute('class', 'emo_menu');
+		btn.setAttribute('class', 'stamp_menu');
 		btn.setAttribute('aria-label', 'Stamp menu');
 		btn.style.right = '40px';
 		btn.addEventListener('click',function(){switchStampContainer();},false);

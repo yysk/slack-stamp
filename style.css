@@ -1,6 +1,25 @@
-#messages-input-container .emo_menu #stamp_button {
-    padding: 12px;
-    margin-top: 2px;
+#message_edit_form .stamp_menu, #messages-input-container .stamp_menu {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 40px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: rgba(0,0,0,.15);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 50ms ease-out .0000001ms;
+  -moz-transition: all 50ms ease-out .0000001ms;
+  transition: all 50ms ease-out .0000001ms;
+  z-index: 1;
+}
+
+#stamp_button {
+  padding: 12px;
 }
 
 .stamp_view {
